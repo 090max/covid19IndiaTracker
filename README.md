@@ -10,7 +10,7 @@
   <h3 align="center">Covid 19 Tracker</h3>
 
   <p align="center">
-   A React Personalized Web App that tracks the Covid-19 cases in India. 
+   A React Progressive Web App that tracks the Covid-19 cases in India. 
     <br />
     <a href="https://covid19indiatracker.netlify.com">View Demo</a>
   </p>
@@ -48,7 +48,7 @@ Features of the Chat Application:
 * Automatically fetches the user's location and displays the state wise report. 
 * Shows visualization of the Covid-19 reports in India so far.
 * The Server API(Implemented in Python Flask) regularly updates the data from "https://www.mohfw.gov.in/" in every 15 minutes interval.
-* Easy to install as this is a Personalized Web App.
+* Easy to install as this is a Progressive Web App.
 
 ### Built With
 * [ReactJS](https://reactjs.org/)
