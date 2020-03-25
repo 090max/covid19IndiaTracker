@@ -12,7 +12,7 @@
   <p align="center">
    A React Personalized Web App that tracks the Covid-19 cases in India. 
     <br />
-    <a href="http://connectu-chat-client.herokuapp.com">View Demo</a>
+    <a href="https://covid19indiatracker.netlify.com">View Demo</a>
   </p>
 </p>
 
@@ -70,7 +70,7 @@ npm install npm@latest -g
 
 ### Installation
 
-To download it as a Personalize Web App , open the link in Google Chrome and then "Add to home screen".To Run the application for development Do the following:
+To download it as a Personalize Web App , open the <a href="https://covid19indiatracker.netlify.com">Link</a> in Google Chrome and then "Add to home screen".To Run the application for development Do the following:
 1. To Run the application for development ,Clone the repo
 ```sh
 git clone https://github.com/090max/covid19IndiaTracker
