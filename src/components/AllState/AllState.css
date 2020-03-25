@@ -1,0 +1,73 @@
+.card_all {
+  margin: 30px auto;
+  width: 300px;
+  height: 20vh;
+  color: cornsilk;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_all .card_image_all {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card_all .card_image_all img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.info_all {
+  height: 0.5vh;
+}
+
+.card_title_all {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.card_all:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black_all {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list_all {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/*
+    .card {
+      margin: 30px auto;
+      width: 300px;
+      height: 300px;
+      border-radius: 40px;
+      background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+      transition: 0.4s;
+    }
+    */

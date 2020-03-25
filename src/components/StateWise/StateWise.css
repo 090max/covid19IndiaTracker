@@ -1,0 +1,30 @@
+.allStateContainer {
+  padding: 5%;
+  flex: auto;
+  height: 35vh;
+  width: 60vw;
+}
+.outerContainer {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoDiv {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .allStateContainer {
+    padding: 5%;
+
+    width: 100vw;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1080px) {
+  .myStateContainer {
+    margin-top: 40vh;
+  }
+}

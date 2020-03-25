@@ -1,0 +1,85 @@
+.card {
+  margin: 30px auto;
+  width: 20vw;
+  height: 35vh;
+  color: cornsilk;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.information_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.info {
+  width: 100%;
+  margin: 8px;
+}
+
+.card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.fetching_info_mystate {
+  color: white;
+}
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: 60vw;
+    height: 34vh;
+  }
+
+  .info {
+    margin: 3px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1080px) {
+  .card {
+    height: 50vh;
+    width: 35vw;
+    border-radius: 2px;
+    overflow: auto;
+  }
+
+  .info {
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0;
+  }
+}
