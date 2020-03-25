@@ -35,7 +35,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](https://github.com/090max/ConnectU/blob/master/images/connectu_demo.gif)
+![main page](https://github.com/090max/covid19IndiaTracker/blob/master/images/main.png)
+![](https://github.com/090max/covid19IndiaTracker/blob/master/images/state_fetcher.png)
+![](https://github.com/090max/covid19IndiaTracker/blob/master/images/states.png)
+![](https://github.com/090max/covid19IndiaTracker/blob/master/images/analytics.png)
+
 
 ConnectU is a dynamic room chat application. 
 
