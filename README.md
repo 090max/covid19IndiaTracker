@@ -7,10 +7,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">ConnectU</h3>
+  <h3 align="center">Covid 19 Tracker</h3>
 
   <p align="center">
-    An awesome chat application to get connected with people around.
+   A React Personalized Web App that tracks the Covid-19 cases in India. 
     <br />
     <a href="http://connectu-chat-client.herokuapp.com">View Demo</a>
   </p>
@@ -35,23 +35,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![main page](https://github.com/090max/covid19IndiaTracker/blob/master/images/main.png)
-![](https://github.com/090max/covid19IndiaTracker/blob/master/images/state_fetcher.png)
-![](https://github.com/090max/covid19IndiaTracker/blob/master/images/states.png)
-![](https://github.com/090max/covid19IndiaTracker/blob/master/images/analytics.png)
+![main_page](https://github.com/090max/covid19IndiaTracker/blob/master/images/main.png)
+![State Tracking](https://github.com/090max/covid19IndiaTracker/blob/master/images/state_fetcher.png)
+![All states Info](https://github.com/090max/covid19IndiaTracker/blob/master/images/states.png)
+![Visualization](https://github.com/090max/covid19IndiaTracker/blob/master/images/analytics.png)
 
 
-ConnectU is a dynamic room chat application. 
+This is a a covid-19 tracker made specifically for India. 
 
 Features of the Chat Application:
-* Create your own rooms or Join any exisiting ones.
-* The Admin of the room (System Generated) provides the information of the ones leaving and entering the chat. 
-* Dynamic online users count display.
-* Sockets providing seamless connectivity.
+* Regularly updates the users about the Active cases , Migrated Cases , Death Cases and Discharged Cases.
+* Automatically fetches the user's location and displays the state wise report. 
+* Shows visualization of the Covid-19 reports in India so far.
+* The Server API(Implemented in Python Flask) regularly updates the data from "https://www.mohfw.gov.in/" in every 15 minutes interval.
+* Easy to install as this is a Personalized Web App.
 
 ### Built With
 * [ReactJS](https://reactjs.org/)
-* [NodeJS](https://nodejs.org/en/)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
@@ -70,16 +70,16 @@ npm install npm@latest -g
 
 ### Installation
 
-1. The application has two direcotries chatfront (The client side) and the chatback (The Server side)
-2. Clone the repo
+To download it as a Personalize Web App , open the link in Google Chrome and then "Add to home screen".To Run the application for development Do the following:
+1. To Run the application for development ,Clone the repo
 ```sh
-git clone https://github.com/090max/ConnectU
+git clone https://github.com/090max/covid19IndiaTracker
 ```
-3. Install NPM packages in both the above listed directories.
+2. Install NPM packages.
 ```sh
 npm i
 ```
-4. Run both server and client in their respective directory.`
+4. Run the client.`
 ```JS
 npm start
 ```
