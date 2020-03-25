@@ -36,6 +36,7 @@
 ## About The Project
 
 ![main_page](https://github.com/090max/covid19IndiaTracker/blob/master/images/main.png)
+<center>Main Page</center>
 ![State Tracking](https://github.com/090max/covid19IndiaTracker/blob/master/images/state_fetcher.png)
 ![All states Info](https://github.com/090max/covid19IndiaTracker/blob/master/images/states.png)
 ![Visualization](https://github.com/090max/covid19IndiaTracker/blob/master/images/analytics.png)
