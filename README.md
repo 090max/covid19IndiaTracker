@@ -41,7 +41,7 @@
 ![Visualization](https://github.com/090max/covid19IndiaTracker/blob/master/images/analytics.png)
 
 
-This is a a covid-19 tracker made specifically for India. 
+This is a covid-19 tracker made specifically for India. 
 
 Features of the Chat Application:
 * Regularly updates the users about the Active cases , Migrated Cases , Death Cases and Discharged Cases.
